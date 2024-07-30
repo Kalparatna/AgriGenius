@@ -7,3 +7,4 @@ langchain
 googletrans
 langdetect
 python-dotenv
+sentence-transformers

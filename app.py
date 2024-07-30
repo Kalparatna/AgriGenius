@@ -14,7 +14,7 @@ import os
 import io
 
 # Load environment variables from Streamlit secrets
-together_api_key = st.secrets["TOGETHER_API_KEY"]
+together_api_key = st.secrets["API_KEY"]
 
 # Function to fetch content from a website
 def fetch_website_content(url):

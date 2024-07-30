@@ -10,13 +10,11 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from googletrans import Translator
 from langdetect import detect
-from dotenv import load_dotenv
 import os
 import io
 
-# Load environment variables
-load_dotenv()
-together_api_key = os.getenv('API_KEY')
+# Load environment variables from Streamlit secrets
+together_api_key = st.secrets["TOGETHER_API_KEY"]
 
 # Function to fetch content from a website
 def fetch_website_content(url):

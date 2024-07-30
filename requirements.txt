@@ -8,3 +8,4 @@ googletrans
 langdetect
 python-dotenv
 sentence-transformers
+chromadb

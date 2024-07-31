@@ -2,7 +2,7 @@
 
 AgriGenius is an intelligent chatbot designed to answer agriculture-related questions by fetching content from websites and PDFs, translating text using Google Translate, and leveraging a robust language model. This project uses Python, Flask, RAG, LLM, GENAI, API, LangChain, NLP for the backend, and HTML, CSS, and JavaScript for the frontend.
 
-## Features
+## Features.
 
 - Fetches content from websites and PDFs
 - Multi-Language Support
